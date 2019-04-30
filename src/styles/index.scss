@@ -1,0 +1,27 @@
+$body-color: white;
+
+body {
+  color: $body-color;
+}
+
+
+.list-header{
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+.list{
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  .list-item{
+    display: flex;
+    flex-direction: row;
+    width: 23%;
+    background: rgb(206, 204, 204);
+    margin: 5px;
+    padding: 5px;
+  }
+}
